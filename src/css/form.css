@@ -1,0 +1,79 @@
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+
+  height: 296px;
+  background: #fff;
+  margin: 0 auto;
+  width: 408px;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  font-family: var(--font-family);
+}
+
+.label-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  font-family: var(--font-family);
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: var(--font-family);
+  border: none;
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+}
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
